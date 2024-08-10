@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgb(215, 183, 0);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.memory {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(215, 183, 0);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+}
+
+.memory img {
+    width: 100%;
+    display: block;
+}
+
+.memory p {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
